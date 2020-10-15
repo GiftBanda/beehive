@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #30cfd0;
+}
+
+
+h1 {
+    font-size: 2rem;
+    margin: 1rem 0rem;
+    color: white;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 70%;
+    color: white;
+    cursor: default;
+}
+
+
+img {
+    height: 70vh;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.nav-list {
+    height: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    list-style: none;  
+     
+}
+
+.nav-links {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.nav-links:hover {
+    color: var(--primary-color);
+}
+
+.link-border {
+    border-bottom: orange 4px solid; 
+}
+
+.home, .about, .contact {
+    height: 90vh;
+    position: absolute;
+    width: 100%;
+}
+
+.home {
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.about {
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+}
+
+.contact {
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+}
+
+.home-content, .about-content, .contact-content {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 18rem;
+
+}
+
+.home-content a, .about-content a {
+    text-decoration: none; 
+    font-size: 1rem; 
+    color: white;
+    padding: 0.5rem;
+    background-color: purple;
+    border-radius: 5px;
+}
+
+.about-content a:hover {
+    text-decoration: none; 
+    font-size: 1rem; 
+    color: white;
+    padding: 0.5rem;
+    background-color: rgb(216, 5, 216);
+    border-radius: 5px;
+}
+
+.home-content a:hover {
+    text-decoration: none; 
+    font-size: 1rem; 
+    color: white;
+    padding: 0.5rem;
+    background-color: rgb(216, 5, 216);
+    border-radius: 5px;
+}
